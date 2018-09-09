@@ -4,6 +4,8 @@
 
 Skrifa skal CSS til að láta gefið HTML líta út eins og gefin fyrirmynd (`fyrirmynd.png`).
 
+![](fyrirmynd.png)
+
 Ekki er leyfilegt að breyta HTML skjali nema til þess að tengja CSS við það, þ.e.a.s. ekki má breyta því sem er innan `<body>`.
 
 ### Almennt
@@ -76,6 +78,8 @@ Fyrir `.cards` element gildir:
 * Miðja á element á síðu
 * Takki innan elements skal hafa `36px` margin að ofan og neðan
 * Bæta skal við texta eftir takka sem segir „Ekki meira efni“, með `18px` margin að ofan og neðan og `1px` border með `#c00` lit
+
+![](hover.gif)
 
 ### Annað
 
