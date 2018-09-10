@@ -51,10 +51,10 @@ Fyrsta textablokk:
 * Fyrsta lína skal vera með bakgrunnslit `#ddd`
 * Fyrsti stafur skal vera `36px`
 
-Fyrsta textablokk:
+Þriðja textablokk:
 
 * Letur stærð `14px`
-* Margin vinstra megin `50px`
+* Margin vinstra megin `100px`
 * Fyrsta lína skal vera með bakgrunnslit `#eee`
 * Fyrsti stafur skal vera `36px`
 
@@ -77,7 +77,7 @@ Fyrir `.cards` element gildir:
 * Má mest verða `666px` breitt
 * Miðja á element á síðu
 * Takki innan elements skal hafa `36px` margin að ofan og neðan
-* Bæta skal við texta eftir takka sem segir „Ekki meira efni“, með `18px` margin að ofan og neðan og `1px` border með `#c00` lit
+* Bæta skal við texta eftir takka sem segir „Ekki meira efni“, með `18px` margin að ofan og neðan og `1px` border að ofan með `#c00` lit
 
 ![](hover.gif)
 
