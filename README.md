@@ -77,7 +77,7 @@ Fyrir `.cards` element gildir:
 * Má mest verða `666px` breitt
 * Miðja á element á síðu
 * Takki innan elements skal hafa `36px` margin að ofan og neðan
-* Bæta skal við texta eftir takka sem segir „Ekki meira efni“, með `18px` margin að ofan og neðan og `1px` border að ofan með `#c00` lit
+* Bæta skal við texta eftir takka sem segir „Ekki meira efni“, með `18px` margin að ofan og neðan, `1px` border með `#c00` lit, og `18px` padding að ofan
 
 ![](hover.gif)
 
