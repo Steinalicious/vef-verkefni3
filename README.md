@@ -127,4 +127,12 @@ Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 11%, samtals 22
 
 ---
 
-> Útgáfa 0.1
+> Útgáfa 0.2
+
+### Útgáfusaga
+
+| Útgáfa | Lýsing                                                                 |
+|--------|------------------------------------------------------------------------|
+| 0.1    | Fyrsta útgáfa                                                          |
+| 0.2    | Laga `fyrirmynd.png`, sýndi vitlaust bil fyrir neðan „Ekki meira efni“ |
+
