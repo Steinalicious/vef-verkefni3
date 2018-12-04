@@ -2,10 +2,121 @@
 /* almennar skilgreiningar */
 
 html {
-
+font-size: 18px;
+min-width: 800px;
+border: 1px solid black;
 }
 
-/* texti */
+/*fyrirsagnir*/
+h1 {
+  margin-bottom: 2em;
+  font-size: 2em;
+  border-bottom: 0.05px solid #999;
+}
 
+h2 {
+  margin: 0;
+  font-size: 1.67em;
+  color: #999;
+}
+
+.card-section > h2 {
+  display: none;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1em;
+}
+
+/*takkar*/
+button {
+  border-width: 0.28em;
+  border-color: #999 #999 #666 #666;
+  font-size: 1em;
+}
+
+button:hover {
+  border-width: 0.56em;
+  border-color: #666 #666 #999 #999;
+}
+
+/*texti*/
+p::first-letter {
+  font-size: 2em;
+}
+
+.card-text p{
+  font-size: 1em;
+  margin-left: 0em;
+}
+
+.card-text p::first-line {
+  background-color: #ccc;
+}
+
+.card-text p + p {
+  font-size: 0.89em;
+  margin-left: 2.78em;
+}
+
+.card-text p + p::first-line {
+  background-color: #ddd;
+}
+
+.card-text p + p + p {
+  font-size: 14px;
+  margin-left: 5.56em;
+}
+.card-text p + p + p::first-line {
+  background-color: #eee;
+}
 
 /* cards */
+
+.cards {
+  display: block;
+  width: 37em;
+  margin: 0 auto;
+}
+
+.cards button {
+  margin: 2em 0;
+}
+.cards::after {
+  content: "Ekki meira efni";
+  display:block;
+  margin: 1em 0;
+  border-top: 0.05em solid #c00;
+  padding-top: 1em;
+}
+
+
+.card {
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 0.05em solid black;
+}
+
+.card:nth-child(2n) {
+  background-color: #fff;
+  color: #333;
+}
+
+.card:nth-child(2n+1) {
+  background-color: #333;
+  color: #fff;
+}
+
+.cards:hover .card:nth-child(2n+1) {
+  background-color: #fff;
+  color: #333;
+}
+
+.cards:hover .card:nth-child(2n) {
+  background-color: #333;
+  color: #fff;
+}
